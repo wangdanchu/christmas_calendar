@@ -31,24 +31,12 @@ button {
   transition: background-color 0.3s ease;
 }
 
-#studyButton {
-  background-color: #E8334E;
-  color: white;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-#studyButton a {
-  color: white;
-  text-decoration: none;
-}
 
 
 /* 화면 크기가 작을 때의 스타일 */
 @media (max-width: 768px) {
 
-  #shareButton,
-  #studyButton {
+  #shareButton {
     width: 90%;
     /* 더 작은 화면에서 버튼 너비를 늘림 */
     padding: 0.75em;
@@ -62,10 +50,6 @@ button {
   background-color: #fae1e1;
 }
 
-/* 호버 효과는 모든 화면 크기에 적용 */
-#studyButton:hover {
-  background-color: #bc2a40;
-}
 
 /* 하단부 안내 */
 .copyright {
